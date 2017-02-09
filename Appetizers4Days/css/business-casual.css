@@ -1,0 +1,723 @@
+/*!
+ * Start Bootstrap - Business Casual Bootstrap Theme (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+
+body {
+    font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+   /*background: url('../img/bg.jpg') no-repeat center center fixed;*/
+   background-color: #607D8B 
+}
+
+
+h3 {
+    line-height: .5;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-family: "Josefin Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
+    letter-spacing: 1px;
+}
+
+h4 {
+    line-height: 1;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 60px;
+    font-family: "Josefin Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
+    letter-spacing: 1px;
+}
+
+
+h1,
+h2,
+h5,
+h6 {
+    font-family: "Josefin Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-bottom: auto;
+}
+
+p {
+    font-size: 1.25em;
+    line-height: 1.6;
+    color: #000;
+}
+
+hr {
+    max-width: 400px;
+    border-color: #999999;
+}
+
+.brand,
+.address-bar {
+    display: none;
+}
+
+.navbar-brand {
+    text-transform: uppercase;
+    font-weight: 900;
+    letter-spacing: 2px;
+}
+
+.navbar-nav {
+    text-transform: uppercase;
+    font-weight: 400;
+    letter-spacing: 3px;
+}
+
+.img-full {
+    min-width: 100%;
+}
+
+.brand-before,
+.brand-name {
+    text-transform: capitalize;
+}
+
+.brand-before {
+    margin: 15px 0;
+}
+
+.brand-name {
+    margin: 0;
+    font-size: 4em;
+}
+
+.tagline-divider {
+    margin: 15px auto 3px;
+    max-width: 250px;
+    border-color: #999999;
+}
+
+.box {
+    margin-bottom: 20px;
+    padding: 30px 15px;
+    background: #fff;
+    background: rgba(255,255,255,0.9);
+}
+
+.outputBox{
+  width: 100%;
+  height: auto;
+  /*vertical-align: middle;*/
+  position: relative;
+  margin: 0 auto;
+  display: inherit;
+  background: #E1F5FE;
+
+}
+
+
+input[type="submit"]
+{
+    font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+    text-align: center;
+    display: inherit;
+    position:relative; 
+    margin: 0 auto;
+    width: 150px;
+    height: 50px;
+    line-height: 32px;
+    border-radius: 2px;
+    font-size: 0.9em;
+    background-color: #E1F5FE;
+    color: #000;
+    border-radius: 5px;
+}
+
+
+.inputbox{
+margin: auto;
+width: 300px;
+height: 50px;
+margin-right: auto;
+margin-left: auto;
+}
+
+.largeinputbox{
+margin: auto;
+width: 300px;
+height: 50px;
+margin-right: auto;
+margin-left: auto;
+}
+
+.container-1{
+  width: 300px;
+  vertical-align: middle;
+  white-space: nowrap;
+  position: inherit;
+}
+
+.container-1 input#search{
+  width: 300px;
+  height: 50px;
+  background: #E1F5FE;
+  border: none;
+  font-size: 10pt;
+  float: left;
+  color: #000000;
+  padding-left: 45px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  
+}
+
+.container-1 input#search::-webkit-input-placeholder {
+   color: #000000;
+}
+ 
+.container-1 input#search:-moz-placeholder { /* Firefox 18- */
+   color: #65737e;  
+}
+ 
+.container-1 input#search::-moz-placeholder {  /* Firefox 19+ */
+   color: #65737e;  
+}
+ 
+.container-1 input#search:-ms-input-placeholder {  
+   color: #65737e;  
+}
+
+.container-2{
+  width: 300px;
+  height: 50px;
+  vertical-align: middle;
+  white-space: nowrap;
+  position: relative;
+}
+
+.container-2 input#search{
+  width: 300px;
+  height: 200px;
+  background: #E1F5FE;
+  border: none;
+  font-size: 10pt;
+  float: left;
+  color: #000000;
+  padding-left: 45px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+}
+
+.container-2 input#search::-webkit-input-placeholder {
+   color: #000000;
+}
+ 
+.container-2 input#search:-moz-placeholder { /* Firefox 18- */
+   color: #65737e;  
+}
+ 
+.container-2 input#search::-moz-placeholder {  /* Firefox 19+ */
+   color: #65737e;  
+}
+ 
+.container-2 input#search:-ms-input-placeholder {  
+   color: #65737e;  
+}
+
+input[name = appetizer_name1]{
+margin: auto;
+width: 300px;
+height: 50px;
+margin-right: auto;
+margin-left: auto;
+  height: 50px;
+  background: #E1F5FE;
+  border: none;
+  font-size: 10pt;
+  float: left;
+  color: #000000;
+  padding-left: 45px;
+    border-radius: 5px;
+
+}
+
+input[name = appetizer_recipe1]{
+  width: 300px;
+  height: 200px;
+  vertical-align: middle;
+  white-space: nowrap;
+  position: relative;
+}
+
+input[name = appetizer_ingredients1]{
+  width: 300px;
+  height: 200px;
+  vertical-align: middle;
+  white-space: nowrap;
+  position: relative;
+}
+
+
+input[name=search_name]{
+  width: 300px;
+  margin:  0 auto;
+  height: 50px;
+  background: #E1F5FE;
+  border: none;
+  font-size: 10pt;
+  /*float: left;*/
+  color: #000000;
+  padding-left: 45px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  vertical-align: middle;
+  text-align: left;
+  display: inherit;
+  position:relative; 
+}
+
+input[name=user_name]{
+  width: 300px;
+  margin:  0 auto;
+  height: 50px;
+  background: #E1F5FE;
+  border: none;
+  font-size: 10pt;
+  /*float: left;*/
+  color: #000000;
+  padding-left: 45px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  vertical-align: middle;
+  text-align: left;
+  display: inherit;
+  position:relative; 
+}
+
+input[name=user_age]{
+  width: 300px;
+  margin:  0 auto;
+  height: 50px;
+  background: #E1F5FE;
+  border: none;
+  font-size: 10pt;
+  /*float: left;*/
+  color: #000000;
+  padding-left: 45px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  vertical-align: middle;
+  text-align: left;
+  display: inherit;
+  position:relative; 
+}
+
+input[name=user_city]{
+  width: 300px;
+  margin:  0 auto;
+  height: 50px;
+  background: #E1F5FE;
+  border: none;
+  font-size: 10pt;
+  /*float: left;*/
+  color: #000000;
+  padding-left: 45px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  vertical-align: middle;
+  text-align: left;
+  display: inherit;
+  position:relative; 
+}
+
+select[name = user_cuisine]{
+    position: relative;
+    display: inline-block;
+    width: 300px;
+    height: 50px;
+      background: #E1F5FE;
+font-size:10pt;
+  margin:  0 auto;
+  height: 50px;
+}
+
+
+select[name = user_skill]{
+    position: relative;
+    display: inline-block;
+    width: 300px;
+    height: 50px;
+      background: #E1F5FE;
+font-size:10pt;
+  margin:  0 auto;
+  height: 50px;
+}
+
+select[name = q1]{
+    position: relative;
+    display: inline-block;
+    width: 300px;
+    height: 50px;
+      background: #E1F5FE;
+font-size:10pt;
+  margin:  0 auto;
+  height: 50px;
+}
+
+select[name = q2]{
+    position: relative;
+    display: inline-block;
+    width: 300px;
+    height: 50px;
+      background: #E1F5FE;
+font-size:10pt;
+  margin:  0 auto;
+  height: 50px;
+}
+select[name = q3]{
+    position: relative;
+    display: inline-block;
+    width: 300px;
+    height: 50px;
+      background: #E1F5FE;
+font-size:10pt;
+  margin:  0 auto;
+  height: 50px;
+}
+
+select[name = q4]{
+    position: relative;
+    display: inline-block;
+    width: 300px;
+    height: 50px;
+      background: #E1F5FE;
+font-size:10pt;
+  margin:  0 auto;
+  height: 50px;
+}
+
+select[name = q5]{
+    position: relative;
+    display: inline-block;
+    width: 300px;
+    height: 50px;
+      background: #E1F5FE;
+font-size:10pt;
+  margin:  0 auto;
+  height: 50px;
+}
+
+select[name = q6]{
+    position: relative;
+    display: inline-block;
+    width: 300px;
+    height: 50px;
+      background: #E1F5FE;
+font-size:10pt;
+  margin:  0 auto;
+  height: 50px;
+}
+select[name = q7]{
+    position: relative;
+    display: inline-block;
+    width: 300px;
+    height: 50px;
+      background: #E1F5FE;
+font-size:10pt;
+  margin:  0 auto;
+  height: 50px;
+}
+select[name = q8]{
+    position: relative;
+    display: inline-block;
+    width: 300px;
+    height: 50px;
+      background: #E1F5FE;
+font-size:10pt;
+  margin:  0 auto;
+  height: 50px;
+}
+select[name = q9]{
+    position: relative;
+    display: inline-block;
+    width: 300px;
+    height: 50px;
+      background: #E1F5FE;
+font-size:10pt;
+  margin:  0 auto;
+  height: 50px;
+}
+select[name = q10]{
+    position: relative;
+    display: inline-block;
+    width: 300px;
+    height: 50px;
+      background: #E1F5FE;
+font-size:10pt;
+  margin:  0 auto;
+  height: 50px;
+}
+select[name = q11]{
+    position: relative;
+    display: inline-block;
+    width: 300px;
+    height: 50px;
+      background: #E1F5FE;
+font-size:10pt;
+  margin:  0 auto;
+  height: 50px;
+}
+select[name = q12]{
+    position: relative;
+    display: inline-block;
+    width: 300px;
+    height: 50px;
+      background: #E1F5FE;
+font-size:10pt;
+  margin:  0 auto;
+  height: 50px;
+}
+select[name = q13]{
+    position: relative;
+    display: inline-block;
+    width: 300px;
+    height: 50px;
+      background: #E1F5FE;
+font-size:10pt;
+  margin:  0 auto;
+  height: 50px;
+}
+select[name = q14]{
+    position: relative;
+    display: inline-block;
+    width: 300px;
+    height: 50px;
+      background: #E1F5FE;
+font-size:10pt;
+  margin:  0 auto;
+  height: 50px;
+}
+select[name = q15]{
+    position: relative;
+    display: inline-block;
+    width: 300px;
+    height: 50px;
+      background: #E1F5FE;
+font-size:10pt;
+  margin:  0 auto;
+  height: 50px;
+}
+select[name = q16]{
+    position: relative;
+    display: inline-block;
+    width: 300px;
+    height: 50px;
+      background: #E1F5FE;
+font-size:10pt;
+  margin:  0 auto;
+  height: 50px;
+}
+select[name = user_weather]{
+    position: relative;
+    display: inline-block;
+      text-align: center;
+
+    width: 300px;
+    height: 50px;
+      background: #E1F5FE;
+font-size:10pt;
+  margin:  0 auto;
+  height: 50px;
+}
+
+select[name = user_smiley]{
+    position: relative;
+    display: inline-block;
+          text-align: center;
+
+    width: 300px;
+    height: 50px;
+      background: #E1F5FE;
+font-size:10pt;
+  margin:  0 auto;
+  height: 50px;
+}
+
+select[name = user_activity]{
+    position: relative;
+    display: inline-block;
+          text-align: center;
+
+    width: 300px;
+    height: 50px;
+      background: #E1F5FE;
+font-size:10pt;
+  margin:  0 auto;
+  height: 50px;
+}
+
+select[name = user_color]{
+    position: relative;
+    display: inline-block;
+    width: 300px;
+          text-align: center;
+
+    height: 50px;
+      background: #E1F5FE;
+font-size:10pt;
+  margin:  0 auto;
+  height: 50px;
+}
+
+select[name = user_omg]{
+    position: relative;
+    display: inline-block;
+    width: 300px;
+    height: 50px;
+          text-align: center;
+
+      background: #E1F5FE;
+font-size:10pt;
+  margin:  0 auto;
+  height: 50px;
+}
+
+
+a[align = right]{
+  position: fixed;
+  right: 0;
+  font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+  display: inline-block;
+  width: 70px;
+  height: 20px;
+  background: #E1F5FE;
+  text-align: center;
+  font-size:10pt;
+  margin:  0 auto;
+}
+
+div[id=searchresults]{
+
+position: relative;
+    display: inline-block;
+    width: 300px;
+    height: 50px;
+      background: #E1F5FE;
+font-size:10pt;
+  margin:  0 auto;
+  height: 50px;
+
+}
+.intro-text {
+    text-transform: uppercase;
+    font-size: 1.25em;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+
+.img-border {
+    float: none;
+    margin: 0 auto 0;
+    border: #999999 solid 1px;
+}
+
+.img-left {
+    float: none;
+    margin: 0 auto 0;
+}
+
+footer {
+    background: #fff;
+    background: rgba(255,255,255,0.9);
+}
+
+footer p {
+    margin: 0;
+    padding: 50px 0;
+}
+
+@media screen and (min-width:768px) {
+    .brand {
+        display: inherit;
+        margin: 0;
+        padding: 30px 0 10px;
+        text-align: center;
+        text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
+        font-family: "Josefin Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
+        font-size: 5em;
+        font-weight: 700;
+        line-height: normal;
+        color: #fff;
+    }
+
+    .top-divider {
+        margin-top: 0;
+    }
+
+    .img-left {
+        float: left;
+        margin-right: 25px;
+    }
+
+    .address-bar {
+        display: inherit;
+        margin: 0;
+        padding: 0 0 40px;
+        text-align: center;
+        text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
+        text-transform: uppercase;
+        font-size: 1.25em;
+        font-weight: 400;
+        letter-spacing: 3px;
+        color: #fff;
+    }
+
+    .navbar {
+        border-radius: 0;
+    }
+
+    .navbar-header {
+        display: none;
+    }
+
+    .navbar {
+        min-height: 0;
+    }
+
+    .navbar-default {
+        border: none;
+        background: lightblue;
+        background: rgba(255,255,255,0.9);
+    }
+
+    .nav>li>a {
+        padding: 35px;
+    }
+
+    .navbar-nav>li>a {
+        line-height: normal;
+    }
+
+    .navbar-nav {
+        display: table;
+        float: none;
+        margin: 0 auto;
+        table-layout: fixed;
+        font-size: 1.25em;
+    }
+    
+    .output{
+    	position: absolute;
+        left: 35px;
+	top: 275px;
+	color:white;
+     }
+}
+
+@media screen and (min-width:1200px) {
+    .box:after {
+        content: '';
+        display: table;
+        clear: both;
+    }
+}
